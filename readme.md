@@ -20,13 +20,13 @@ this will run the default development server on http://127.0.0.1:5000
 
 this api has only two route:
 - /todo/api/v1.0/tasks
-`POST` request on this route will create a new task. 
-`GET` request on ths route will return all the remain task. but this route require a username and password just for basic authintication [username: onion, password: flask-rock]
+    - `POST` request on this route will create a new task. 
+    - `GET` request on ths route will return all the remain task. but this route require a username and password just for basic authintication [username: onion, password: flask-rock]
 
 - /todo/api/v1.0/tasks/<int:task_id>
-`PUT` request on this route will update the specific task.
-`DELETE` request on this route will delete the specific task.
-`GET` request on this route will return the specific task.
+    - `PUT` request on this route will update the specific task.
+    - `DELETE` request on this route will delete the specific task.      
+    - `GET` request on this route will return the specific task.
 
 you should use `curl` to test this api.
 ## Example
